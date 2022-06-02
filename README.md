@@ -3,7 +3,7 @@
 
 ## Inhaltsverzeichnis
 * [Kurzbeschreibung](#Kurzbeschreibung) 
-* [Entstehungskontext & Förderhinweis](#Entstehungskontext--Förderhinweis)
+* [Förderhinweis](#Förderhinweis)
 * [Installation](#Installation)
 * [Benutzung](#Benutzung)
 * [Credits](#Credits)
@@ -17,7 +17,7 @@ Vimuki wurde speziell für Kinder und Jugendliche kreiert, es ist jedoch auch sc
 Vimuki ist eine Kombination aus verschiedenen Webanwendungen und besteht aus einem Lernportal, welches an eine bereits bestehende Landingpage angedockt wurde. Über die Lernplattform können Online-Livetouren durch Museen in Form von Videokonferenzen gebucht und durchgeführt werden. Eine Anpassung des integrierten Videokonferenztools ist ebenfalls Teil dieses Projeks.
 
 
-### Entstehungskontext & Förderhinweis ###
+### Förderhinweis ###
 
 Diese Webanwendung ist entstanden im Verbundprojekt museum4punkt0 – Digitale Strategien für das Museum der Zukunft, Teilprojekt [Teilprojektname einfügen gemäß Verbund-Website, Kurzform möglich]. Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregierung für Kultur und Medien aufgrund eines Beschlusses des Deutschen Bundestages. 
 
