@@ -133,7 +133,7 @@ define( 'ROOT_PATH', dirname( __DIR__ ) . '/' );
 define( 'BASIC_PATH', dirname( __DIR__ ) );
 
 // BBB SERVER
-const BBB_SECRET = 'Hg7X3YmleE6l01YDtTdkV5ez4y9cgjpgSf3yrz2Dds';
+const BBB_SECRET = '';
 const BBB_SERVER = 'https://tours.vimuki.org';
 const BBB_SERVER_BASE_URL = 'https://tours.vimuki.org'/bigbluebutton/';
 
@@ -142,9 +142,9 @@ const BBB_SERVER_BASE_URL = 'https://tours.vimuki.org'/bigbluebutton/';
 const ILIAS_BASE_URL = 'https://tutor.vimuki.org';
 const ILIAS_CLIENT = 'vimuki';
 const ILIAS_DOMAIN_NAME = 'tutor.vimuki.org';
-const NIC_ID = "il_13827_";
-const ILIAS_SOAP_USERNAME = "soap"; // the name of the soap user you created in the ILIAS administration
-const ILIAS_SOAP_PASSWORD = "!QA2ws3ed"; // password of the soap user
+const NIC_ID = "";
+const ILIAS_SOAP_USERNAME = ""; // the name of the soap user you created in the ILIAS administration
+const ILIAS_SOAP_PASSWORD = ""; // password of the soap user
 
 require_once("../src/Soap/nusoap.php"); // path der nusoap.php
 
