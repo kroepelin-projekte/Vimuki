@@ -11,10 +11,8 @@
 
 
 ### Kurzbeschreibung ###
-
-Das Vimuki-Rezept – The Vimuki recipe – La Vimuki recette – La receta de Vimuki
-Vimuki wurde speziell für Kinder und Jugendliche kreiert, es ist jedoch auch schmackhaft für Eltern, Großeltern und alle anderen Feinschmecker, die im Herzen ein Kind geblieben sind. Die Zubereitung dauert ein Jahr, da die Sicht auf die Welt und die Freude am genussvollen Lernen lange nachhalten soll.
-Vimuki ist eine Kombination aus verschiedenen Webanwendungen und besteht aus einem Lernportal, welches an eine bereits bestehende Landingpage angedockt wurde. Über die Lernplattform können Online-Livetouren durch Museen in Form von Videokonferenzen gebucht und durchgeführt werden. Eine Anpassung des integrierten Videokonferenztools ist ebenfalls Teil dieses Projeks.
+Wie lässt sich das Virtuelle Museum für Kinder und Jugendliche (VIMUKI) mit den Inhalten anderer Museen und Kultureinrichtungen ausbauen? Wie entsteht ein virtueller Raum, der durch die Anzahl und Diversität des digitalen Angebots zentrale Anlaufstelle für Schüler*innen, Lehrer*innen und Kulturbegeisterte ist? (aus der Beschreibung des Teilprojekts auf www.museum4punkt0.de)
+Vimuki 2.0 ist eine Kombination aus verschiedenen Webanwendungen. Ein Lernportal wurde an eine bereits bestehende Landingpage angedockt. Über die ILIAS-Lernplattform können Online-Livetouren durch Museen in Form von Videokonferenzen gebucht und durchgeführt werden. Am integrierten Videokonferenztools BigBlueButton wurden Anpassungen vorgenommen und eine php-Landingpage vorgeschaltet. Der Einstieg in die virtuelle Führung kann über ein von der KONSONAUTIC Solutions GmbH und entertainment UG entwickeltes und auf die php-Landingpage integriertes Spiel erfolgen.
 
 
 ### Förderhinweis ###
@@ -170,3 +168,6 @@ Urheber: Kröpelin Projekt GmbH (www.kroepelin-projekte.de)
 Copyright © 2021, Historisches Museum Saar 
 
 [GPL](https://github.com/museum4punkt0/Vimuki/blob/main/LICENSE)
+betrifft alle Programmierungen in ILIAS
+[LGPL](https://github.com/museum4punkt0/Vimuki/blob/main/LICENSE)
+betrifft alle Programmierungen in BigBlueButton
