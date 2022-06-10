@@ -1,0 +1,43 @@
+<div class="il-maincontrols-footer">
+    <div class="il-footer-content">
+	<!-- BEGIN footer_perm_url -->
+        <div class="il-footer-permanent-url">
+            {PERMA_LINK_LABEL}
+            <input id="current_perma_link" type="text" value="{PERMANENT_URL}" readonly="readOnly">
+        </div>
+        <!-- END footer_perm_url -->
+	<span id="additionalSeparator">&nbsp;&nbsp;</span>
+        <a href="/" id="privacyLink" target="_blank" style="color: white;">Datenschutz</a>
+        <span id="additionalSeparator">&nbsp;&nbsp;</span>
+        <span itemscope><meta itemprop="version" content="{TEXT}"></span>
+        <!-- BEGIN footer_links -->
+        <div class="il-footer-links">
+            {LINKS}
+        </div>
+        <!-- END footer_links -->
+    </div>
+</div>
+<script>
+
+    window.onload = function () {
+        if (document.URL.indexOf("ildclrecordlistgui") >= 0) {
+            var savedSuccess = document.querySelector(".alert-success");
+            if (savedSuccess !== null && (savedSuccess.innerHTML.indexOf("gespeichert") >= 0 || savedSuccess.innerHTML.indexOf("saved") >= 0 || savedSuccess.innerHTML.indexOf("enregistrées") >= 0 || savedSuccess.innerHTML.indexOf("guardadas") >= 0)) {
+                var message = function () {
+                    switch (document.documentElement.lang) {
+                        case "en":
+                            return "Thanks for your booking!\nYour Vimuki-Team";
+                        case "es":
+                            return "Gracias por la reserva!\nTu Vimuki-Team";
+                        case "fr":
+                            return "Merci de votre réservation !\nVotre Vimuki-Team";
+                        default:
+                        case "de":
+                          return "Danke für Ihre Anmeldung!\nIhr Vimuki-Team";
+                    }
+                };
+                confirm(message());
+            }
+        }
+    };
+</script>

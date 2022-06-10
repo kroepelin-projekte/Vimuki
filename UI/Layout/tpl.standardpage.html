@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="{LANGUAGE}" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+        <!-- BEGIN base -->
+        <base href="{BASE}" target="_parent"/>
+        <!-- END base -->
+        <title>{SHORT_TITLE}: {VIEW_TITLE}</title>
+
+        <link rel="shortcut icon" href="./Customizing/global/skin/vimuki-skin/images/favicon.png" type="image/x-icon" />
+
+        <style type="text/css">
+            {CSS_INLINE}
+        </style>
+
+        <!-- BEGIN css_file -->
+        <link rel="stylesheet" type="text/css" href="{CSS_FILE}" />
+        <!-- END css_file -->
+        <!-- BEGIN js_file -->
+        <script type="text/javascript" src="{JS_FILE}"></script>
+        <!-- END js_file -->
+    </head>
+    <body>
+        <div class="il-layout-page<!-- BEGIN slates_engaged --> with-mainbar-slates-engaged<!-- END slates_engaged -->">
+            <header>
+                <div class="header-inner">
+                    <div class="il-logo">
+                        <!--{LOGO}-->
+                        <a href="https://vimuki.org" target="_blank">
+                            <img src="./Customizing/global/skin/vimuki-skin/images/logo.png"/>
+                        </a>
+                        <div class="il-pagetitle">
+                            {TITLE}
+                        </div>
+                    </div>
+                    <!-- BEGIN header_locator -->
+                    <nav class="il-header-locator">
+                        {HEADER_BREADCRUMBS}
+                    </nav>
+                    <!-- END header_locator -->
+                    {METABAR}
+                </div>
+            </header>
+
+            <div class="breadcrumbs">
+                <!--                {BREADCRUMBS}-->
+            </div>
+            <div class="nav il-maincontrols">
+                {MAINBAR}
+            </div>
+            <!-- html5 main-tag is not supported in IE / div is needed -->
+            <main id="img-main" class="il-layout-page-content">
+                <div>
+                    <!-- BEGIN mode_info -->
+                    {MODEINFO}
+                    <!-- END mode_info -->
+                    {CONTENT}
+                </div>
+                <!-- BEGIN pagefooter -->
+                <footer role="contentinfo">
+                    {FOOTER}
+                </footer>
+                <!-- END pagefooter -->
+            </main>
+        </div>
+        <!-- BEGIN on_load_code -->
+        <script type="text/javascript">
+<!-- BEGIN on_load_code_inner -->
+            il.Util.addOnLoad(function () {
+                {OLCODE}
+            });
+<!-- END on_load_code_inner -->
+            // CUSTOM JS
+            var classname = " ";
+            if (window.location.href.indexOf("login.php") > -1) {
+                classname += "login-page";
+            } else {
+                const urlParams = new URLSearchParams(window.location.search);
+                if (urlParams.has('cmdClass')) {
+                    classname += urlParams.get('cmdClass') + "-page";
+                }
+                if (urlParams.has('ref_id')) {
+                    classname += " ref-id-" + urlParams.get('ref_id');
+                }
+                if (urlParams.has('baseClass')) {
+                    classname += " base-class-" + urlParams.get('baseClass');
+                }
+            }
+            document.getElementsByClassName("il-layout-page").item(0).className += classname;
+        </script>
+        <!-- END on_load_code -->
+    </body>
+</html>

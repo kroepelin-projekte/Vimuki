@@ -1,0 +1,610 @@
+@import "../../../../templates/default/delos";
+// Import Custom Less Files here
+@import "vimuki-skin-variables.less";
+
+
+/* poppins-100 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-100.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-100italic - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 100;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-100italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-100italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-200italic - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 200;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-200italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-200 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-200.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-200.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-300 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-300italic - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 300;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-300italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-300italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-italic - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-500italic - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-500italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-500italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-600 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-600italic - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-600italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-600italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-700 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-700italic - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-700italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-700italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-800 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-800italic - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-800italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-800italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-900italic - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 900;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-900italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900italic.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-900 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('fonts/poppins-v15-latin/poppins-v15-latin-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900.woff') format('woff'), /* Modern Browsers */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/poppins-v15-latin/poppins-v15-latin-900.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+/*Body on login and startup pages has to be white*/
+body .login-page,
+body .ilstartupgui-page,
+body .base-class-ilStartUpGUI {
+    background-color: #ffffff;
+}
+
+/*reduce input fields length on registration page */
+.ilaccountregistrationgui-page .form-control {
+    width: 70%;
+}
+
+/* align headers and input fields on registration page */
+.ilaccountregistrationgui-page .ilHeader {
+    margin-left: 26%;
+    color: #3b80fc;
+}
+
+@media only screen and (max-width: 768px) {
+    .ilaccountregistrationgui-page .ilHeader {
+        margin-left: 0;
+    }
+}
+
+/* hide save button on upper right corner on registration page */
+.ilaccountregistrationgui-page input[name="cmd[saveForm]"]:first-of-type {
+    display: none;
+}
+
+/*overwrite ilias automatic white with blue*/
+::selection {
+    background: #9ebff9;
+}
+
+/* hide footer on startupgui pages*/
+.login-page footer,
+.ilstartupgui-page footer,
+.base-class-ilStartUpGUI footer {
+    display: none;
+}
+
+/*add white background on login pages */
+.login-page .ilFormHeader,
+.login-page .ilFormFooter,
+.ilpasswordassitancegui-page .ilFormHeader,
+.ilstartupgui-page .ilFormHeader,
+.ilstartupgui-page .ilFormFooter,
+.ilaccountregistrationgui-page .ilFormHeader,
+.ilaccountregistrationgui-page .ilFormFooter
+.base-class-ilStartUpGUI .ilFormHeader,
+.base-class-ilStartUpGUI .ilFormFooter{
+    background-color: #ffffff;
+}
+
+/*add margin bottom to ilFormHeader as image */
+.login-page .ilFormHeader,
+.ilstartupgui-page .ilFormHeader {
+    margin-bottom: 65px;
+}
+
+/*hide asterisks on login form */
+.login-page .asterisk,
+.ilstartupgui-page .asterisk,
+.login-page .asterisk ~ .small,
+.ilstartupgui-page .asterisk ~ .small
+{
+    display: none;
+}
+
+/*place login links to the right */
+.loginLinks {
+    text-align: right;
+}
+
+/*hide link to magazin on startupgui pages */
+.base-class-ilStartUpGUI .il_ContainerItemCommand:nth-child(2) {
+    display: none;
+}
+
+/*fixed width for content area*/
+#mainscrolldiv {
+    max-width: 1400px;
+}
+// illogo
+.il-logo > a > img {
+    width: 210px;
+    height: auto;
+    padding-left: 10px;
+    margin-bottom: -30px;
+}
+@media only screen and (max-width: 768px) {
+    .il-logo > a > img {
+        padding: 5% 5% 3% 15%;
+        margin-bottom: 0px;
+    }
+    .il-logo {
+        width: 110px;
+    }
+}
+
+/* make active tab blue */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background-color: #3b80fc;
+}
+#ilTab {
+    border-bottom: 1px solid #c4c4c4;
+}
+
+/* make custom vimuki icon bigger */
+
+.icon.small img {
+    width: 33px;
+    height: 33px;
+}
+
+.icon.custom.small {
+    height:33px;
+    width: 33px;
+}
+
+.icon.small {
+    height: 24px;
+    width: 24px;
+}
+
+/*adjust slate colors accordingly on hover and engaged */
+.il-mainbar-triggers .btn-bulky:hover .bulky-label, .il-mainbar-triggers .il-link.link-bulky:hover .bulky-label, .il-mainbar-triggers .btn-bulky.engaged .bulky-label, .il-mainbar-triggers .il-link.link-bulky.engaged .bulky-label {
+    color: #8f8fac;
+}
+
+.il-maincontrols-slate .btn-bulky .bulky-label, .il-maincontrols-slate .link-bulky .bulky-label {
+    line-height: 2.5rem;
+}
+
+/* delete dark bottom line for slate buttons */
+.il-mainbar-triggers .btn-bulky,
+.il-mainbar-triggers .il-link.link-bulky {
+    border-bottom: none;
+}
+
+/* adjust tools button colors and behavious */
+.il-mainbar-tools-button .btn-bulky, .il-mainbar-tools-button .btn-bulky.disengaged {
+    color: #ffffff;
+}
+
+.il-mainbar-tools-button .btn-bulky.engaged {
+    color: #707070;
+}
+
+/* adjust login left area */
+.loginPicArea {
+    position: static;
+    float: left;
+} 
+.loginPicArea img{
+    width: 700px;
+} 
+
+.customStartupSection {
+    position: static;
+    float: right;
+    max-width: 100%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 1449px) {
+    .customStartupSection {
+        margin: 0 0 0 45px;
+        float: none;
+    }
+    .loginLinks {
+        text-align: left;
+        margin-left: 80px;
+    }
+}
+
+/* adjust login links */
+.loginLinks {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/*adjust logout page*/
+.customStartupSection .ilStartupSection.logout-page {
+    float: none;
+    margin-left: -240px;
+}
+.customStartupSection .ilStartupSection.logout-page p {
+    text-align: left;
+}
+
+@media only screen and (max-width: 1215px) {
+    .customStartupSection .ilStartupSection.logout-page {
+        margin-left: 50px;
+        display: inline-block;  
+    }
+}
+
+/* Login-Form - Username-Input-Field */
+.custom-container-login-form input[type="text"] {
+    height: 35px;
+}
+/* Login-Form - Password-Input-Field */
+.custom-container-login-form input[type="password"] {
+    height: 35px;
+}
+
+/* adjust logout left area */
+.logoutPicArea {
+    position: static;
+    float: left;
+    margin-left: 45px;
+    margin-right: 200px;
+} 
+.logoutPicArea img{
+    width: 500px;
+}
+
+/* Three image containers on login page */ 
+.loginImage {
+    float: left;
+    width: 33.33%;
+    padding: 45px;
+}
+
+/*  Clear floats after image container */ 
+.loginImagesRow::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+/* add bigger margin-top for first and third picture */
+.loginImage:nth-child(1) {
+    margin-top: 90px;
+} 
+
+.loginImage:nth-child(3) {
+    margin-top: 105px;
+} 
+
+/* hide Desk Title and icon */
+#headerimage,
+.ildashboardgui-page .media-heading.ilHeader,
+.base-class-ilDashboardGUI .media-heading.ilHeader{
+    display: none;
+}
+/* make Header titles bigger */
+.media-heading.ilHeader {
+    font-weight: 600;
+}
+/*input#username.form-control{
+    background-color: #FFFFFF;
+}
+input#password.form-control{
+    background-color: #FFFFFF;
+}
+/* Form - InputField*/
+input:invalid {
+    background-color: #ffffff;
+    border-color: #f4b2b2;
+}
+/* Login-Form */
+/*form.form-horizontal {
+    border: 1px solid black;
+    padding: 5px 5px 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}*/
+.form-horizontal label{
+    padding: 5px;
+}
+
+.log-formular{
+    padding: 5px 5px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    background-color: white;
+}
+
+/* Button */
+.btn-sm, .btn-group-sm > .btn {
+    margin-right: 15px;
+    padding: 3px 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+/* buttons on tools area */
+.btn-sm, .btn {
+    margin-right: 0;
+}
+
+/* Logout-Page Div */
+.ilStartupSection.logout-page {
+    max-width: 450px;
+    text-align: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column; 
+}
+/* Logout-Page Div */
+.ilStartupSection.logout-page a {
+    text-decoration: underline;
+    color: #0000EE;
+    font-size: 12px;
+}
+.il-pagetitle {
+    max-width: 250px;
+    font-weight: 400;
+    padding-left: 0px;
+    margin-bottom: -30px;
+}
+.ilStartupSection.logout-page p:first-child {
+    font-size: 24px;
+}
+
+.ilStartupSection.logout-page p:nth-child(2) a {
+    font-size: 16px;
+    line-height: 2em;
+}
+
+/*hide Magazin button after finishing survey */
+.ilsurveyexecutiongui-page a[href*="cmd=exitSurvey"] {
+    display: none;
+}
+
+/*hide weitere infos on survey info page */
+.ilobjsurveygui-page a[onclick*="Weitere Informationen"],
+.base-class-ilObjSurveyGUI a[onclick*="Weitere Informationen"] {
+    display: none;
+}
+/*align container list items like in Buchungstool Table vertically to the bottom */
+.ilContainerItemsContainer .ilContainerListItemContent {
+    vertical-align: bottom;
+    padding-top: 4px;
+}
+/*modify card */
+.card-title {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.il-card .il-card-repository-head .icon {
+    display: none;
+}
+
+.ilaccountregistrationgui-page .il-layout-page-content {
+    //background-color: lightgrey;
+    background-image: url("images/bgRegistration.png");
+}
+
+
+.ilaccountregistrationgui-page .container-fluid {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.ilaccountregistrationgui-page .form-horizontal {
+    padding-top: 2%;
+}
