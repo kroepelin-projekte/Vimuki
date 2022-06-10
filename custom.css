@@ -1,0 +1,191 @@
+.branding--Z1T4eH0  {
+  padding-top: 15px;
+}
+.branding--Z1T4eH0 > img  {
+  display: block;
+  height: 2.7rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 2.7rem;
+}
+.layout--Z2pPMwf  {
+  background-color: #21D3EF;
+}
+.dropdown--2fjjUn  {
+  padding-left: 0;
+}
+#message-input  {
+  height: 55px;
+}
+.virtulizedScrollableList--ZHPLIL  {
+  background: none;
+  padding-top: 20px;
+}
+/* Background Main Part */
+.presentationContainer--1wqUYG  {
+  background-image: url('../images/custom/background_mitte.png');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.navbar--Z2hKYyK  {
+  background-image: url('../images/custom/background_oben.png');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.actionsbar--Z1ant6U  {
+  background-image: url('../images/custom/background_unten.png');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.svgStyles--ZGah2R  {
+  border: 3px solid #3b80FC;
+}
+.screenshareContainerPresenter--2q16l3  {
+  border: 3px solid #3b80FC;
+}
+.videoPlayer--1MGUuy iframe  {
+  border: 3px solid #3b80FC;
+}
+.hideBtn--ZOkOfz  {
+  background-color: transparent;
+}
+/* Public Chat Button*/
+.chatThumbnail--ZgzRyx  {
+  color: #F36296;
+}
+/* Chat Panel */
+#chatPanel  {
+  background-color: #21D3EF;
+}
+.chat--111wNM  {
+  background-color: #21D3EF;
+}
+.messageListWrapper--1msQSz  {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.form--1S2xdc  {
+  margin-top: 1rem;
+}
+/* Welcome Text Chat */
+.systemMessage--ZEi8xl  {
+  display: none;
+}
+.captionsList--Z1ezIvF, .chatsList--ul3DV  {
+  padding-top: 20px;
+}
+/* Chat messages */
+.messageList--2kDQeQ  {
+  background: #FFFFFF !important;
+  border: 3px solid #06172A;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* Textarea Send Message */
+.wrapper--ZhSWmd textarea  {
+  border: 3px solid #000000;
+}
+/* Hide Titel "Teilnehmer" */
+.container--Z1UAd2a  {
+  display: none;
+}
+/* User List */
+.userList--Z2q1D0p  {
+  background: #FFFFFF;
+}
+/* Separator Line under the logo */
+.separator--Z3YSEe  {
+  height: 0;
+}
+.content--2pnTsl  {
+  background: #FFD300;
+  border-top: 3px solid #06172A;
+}
+.scrollableList--Z2s6Her  {
+  background: #FFD300;
+}
+#chat-toggle-button  {
+  background: #FFD300;
+}
+.scrollStyle--Ckr4w  {
+  background: #FFD300;
+}
+.listItem--Siv4F  {
+  background: #FFD300;
+}
+.userItemContents--C2UQJ  {
+  background: #FFD300;
+}
+#user-w_0fjqi0h0qwqp:hover  {
+  background: #FFD300;
+  border-color:  #FFD300;
+  border: 2px solid #FFD300;
+}
+.userlistPad--o5KDX  {
+  background-color: #06172A;
+}
+.listenOnly--1qW98O  {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.listenOnly--1qW98O .image--2nXIMm  {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.listenOnly--1qW98O img  {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+.voice--2oPUk4  {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.voice--2oPUk4 .image--2nXIMm  {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.voice--2oPUk4 img  {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+.moderator--24bqCT  {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.moderator--24bqCT .image--2nXIMm  {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.moderator--24bqCT img  {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* Avatars in Chat messages */
+.messageList--2kDQeQ .avatar--Z2lyL8K  {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+.messageList--2kDQeQ .moderator--24bqCT  {
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.messageList--2kDQeQ .image--2nXIMm .circle--Z2igeW3  {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+
