@@ -1,0 +1,14 @@
+{
+    "name": "iomi/vimuki",
+    "description": "Vimuki Conference",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ioanna Mitroulaki",
+            "email": "ioanna.mitroulaki@kroepelin-projekte.de"
+        }
+    ],
+    "require": {
+        "bigbluebutton/bigbluebutton-api-php": "~2.0.0"
+    }
+}

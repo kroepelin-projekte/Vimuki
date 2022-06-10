@@ -1,0 +1,14 @@
+#php_value output_buffering On
+#php_value output_handler mb_output_handler
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.*)$ index.php?action=$1&wert=$2
+</IfModule>
+

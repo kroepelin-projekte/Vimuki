@@ -1,0 +1,266 @@
+{
+  "0": {
+    "name": "Curie",
+    "url": "/images/avatars/Curie-Portrait.png",
+    "fullscreen-url": "/images/avatars/Curie.png",
+    "url-bbb-server" : "/images/custom/avatars/Curie-Portrait.png",
+    "alt": "Avatar Curie",
+    "description": "Ich kann in eure Körper sehen, mit Elementen, die ich als “radioaktiv” bezeichne. Im 1. Weltkrieg untersuchte ich damit Soldaten. Eine geniale Erfindung? Natürlich. Wie würde man sonst Knochenbrüche behandeln!"
+  },
+  "1": {
+    "name": "Roald Amundsen",
+    "url": "/images/avatars/Amundsen-Portrait.png",
+    "fullscreen-url": "/images/avatars/Amundsen.png",
+    "url-bbb-server" : "/images/custom/avatars/Amundsen-Portrait.png",
+    "alt": "Avatar Roald Amundsen",
+    "description": "Ich bin Polarforscher. Mit 30 Jahren entdeckte ich die Nordwestpassage in der Arktis, mit fast 40 erreichte ich als erster Mensch den Südpol. Meine Polarexpeditionen machten mich auf der ganzen Welt berühmt."
+  },
+  "2": {
+    "name": "Dali",
+    "url": "/images/avatars/Dali-Portrait.png",
+    "fullscreen-url": "/images/avatars/Dali.png",
+    "url-bbb-server" : "/images/custom/avatars/Dali-Portrait.png",
+    "alt": "Avatar Dali",
+    "description": "Ich bin der Meister des Surrealismus. Surreal bedeutet „über der Wirklichkeit“. Mein Markenzeichen ist mein exzentrisches Aussehen mit Mantel, Hut und einem gezwirbelten Schnurrbart. Ein bisschen verrückt? Na klar!"
+  },
+  "3": {
+    "name": "Dian Fossey",
+    "url": "/images/avatars/Fossey-Portrait.png",
+    "fullscreen-url": "/images/avatars/Fossey.png",
+    "url-bbb-server" : "/images/custom/avatars/Fossey-Portrait.png",
+    "alt": "Avatar Dian Fossey",
+    "description": "Ich studiere das Verhalten der Berggorilla. Ich bin sogar ein Teil ihrer Gemeinschaft. Sie kommunizieren mit mir, vertrauen mir ihre Jungtiere an. Hier, unter den Menschenaffen, fühle ich mich …vollkommen."
+  },
+  "4": {
+    "name": "Katharina",
+    "url": "/images/avatars/Katharina-Portrait.png",
+    "fullscreen-url": "/images/avatars/Katharina.png",
+    "url-bbb-server" : "/images/custom/avatars/Katharina-Portrait.png",
+    "alt": "Avatar Katharina",
+    "description": "34 Jahre regierte ich Russland. Zuerst an der Seite meines ungeeigneten Ehemanns, dann als absolutistische Zarin. Mein Kopf gehört dem russischen Reich. Mein Herz den vielen Liebschaften, die ich pflege."
+  },
+  "5": {
+    "name": "Hildegard von Bingen",
+    "url": "/images/avatars/Hildegard-Portrait.png",
+    "fullscreen-url": "/images/avatars/Hildegard.png",
+    "url-bbb-server" : "/images/custom/avatars/Hildegard-Portrait.png",
+    "alt": "Avatar Hildegard von Bingen",
+    "description": "Ich bin die Frau mit der Gabe einer Seherin. Mein Leben schenkte ich als Äbtissin der Kirche und der Wissenschaft. Ich dichte, schreibe, forsche, suche nach Antworten auf meine Fragen. Und finde sie in Visionen."
+  },
+  "6": {
+    "name": "Keller",
+    "url": "/images/avatars/Keller-Portrait.png",
+    "fullscreen-url": "/images/avatars/Keller.png",
+    "url-bbb-server" : "/images/custom/avatars/Keller-Portrait.png",
+    "alt": "Avatar Keller",
+    "description": "Lasst mich eure Lippen berühren, damit ich euch verstehen kann. Denn ich bin taub und blind. Und doch habe ich sprechen und schreiben gelernt. Sogar die Doktorwürde habe ich erworben. Das könnt ihr auch, wenn ihr wollt!"
+  },
+  "7": {
+    "name": "Jeanne D'Arc",
+    "url": "/images/avatars/JeanneDarc-Portrait.png",
+    "fullscreen-url": "/images/avatars/JeanneDarc.png",
+    "url-bbb-server" : "/images/custom/avatars/JeanneDarc-Portrait.png",
+    "alt": "Avatar Jeanne D'Arc",
+    "description": "Am 30. Mai 1431 brannte ich auf dem Scheiterhaufen in Rouen, im Alter von 19 Jahren. Dem König verhalf ich zur Krone, aber Missgunst brachte mir den Tod. Doch sterbe ich als Märtyrerin für meinen Glauben an die Freiheit."
+  },
+  "8": {
+    "name": "Khan",
+    "url": "/images/avatars/Khan-Portrait.png",
+    "fullscreen-url": "/images/avatars/Khan.png",
+    "url-bbb-server" : "/images/custom/avatars/Khan-Portrait.png",
+    "alt": "Avatar Khan",
+    "description": "Mein Vater nannte mich Temüdschin, mein Volk nennt mich Dschingis Khan, Herr eines Reiches, das die halbe Welt umspannt. Meine Reiterarmee war fast unbesiegbar und weit gefürchtet. Seid ihr schnell genug? Dann reitet mit mir!"
+  },
+  "9": {
+    "name": "Nelson Mandela",
+    "url": "/images/avatars/Mandela-Portrait.png",
+    "fullscreen-url": "/images/avatars/Mandela.png",
+    "url-bbb-server" : "/images/custom/avatars/Mandela-Portrait.png",
+    "alt": "Avatar Nelson Mandela",
+    "description": "Man nennt mich Madiba oder Tata. Besser bekannt unter dem Rufnamen: Mandela, der erste schwarze Präsident Südafrikas. Für die Politik der Apartheid war ich ein Feind, für die Welt bin ich ein Freiheitskämpfer."
+  },
+  "10": {
+    "name": "London",
+    "url": "/images/avatars/London-Portrait.png",
+    "fullscreen-url": "/images/avatars/London.png",
+    "url-bbb-server" : "/images/custom/avatars/London-Portrait.png",
+    "alt": "Avatar London",
+    "description": "Gestatten: Jack London. Ich bin ein wahrer Abenteurer. Austernpirat, Robbenjäger, Goldsucher, Kriegsberichterstatter. Ihr wollt mehr erfahren? Dann lest meine Bücher, denn ein berühmter Schriftsteller bin ich auch."
+  },
+  "11": {
+    "name": "Jules Verne",
+    "url": "/images/avatars/Verne-Portrait.png",
+    "fullscreen-url": "/images/avatars/Verne.png",
+    "url-bbb-server" : "/images/custom/avatars/Verne-Portrait.png",
+    "alt": "Avatar Jules Verne",
+    "description": "Ihr kennt mich. Ganz sicher! 20.000 Meilen unter dem Meer?! Die Nautilus?! Kapitän Nemo?! Mit mir seit ihr in 80 Tagen um die Welt gereist. Ich bin Jules Verne, der Vater wahrer Entdeckergeschichten."
+  },
+  "12": {
+    "name": "Napoleon",
+    "url": "/images/avatars/Napoleon-Portrait.png",
+    "fullscreen-url": "/images/avatars/Napoleon.png",
+    "url-bbb-server" : "/images/custom/avatars/Napoleon-Portrait.png",
+    "alt": "Avatar Napoleon",
+    "description": "Das wichtigstes in Kürze zu mir: Napoleon Bonaparte. Geboren 1769 auf Korsika, erster Konsul der Französischen Republik, dann 1. Kaiser der Franzosen. Mein Motto: “Wir stehen am Vorabend großer Ereignisse”"
+  },
+  "13": {
+    "name": "Merian",
+    "url": "/images/avatars/Merian-Portrait.png",
+    "fullscreen-url": "/images/avatars/Merian.png",
+    "url-bbb-server" : "/images/custom/avatars/Merian-Portrait.png",
+    "alt": "Avatar Merian",
+    "description": "Ich bin Künstlerin und Insektenforscherin. Schmetterlingen und ihrer Metamorphose gilt meine besondere Liebe. Und dem Reisen. Denn in den Urwäldern Surinams konnte ich mehr über die Falter lernen als je zuvor."
+  },
+  "14": {
+    "name": "Norgay",
+    "url": "/images/avatars/Norgay-Portrait.png",
+    "fullscreen-url": "/images/avatars/Norgay.png",
+    "url-bbb-server" : "/images/custom/avatars/Norgay-Portrait.png",
+    "alt": "Avatar Norgay",
+    "description": "Ich bin ein Sherpa und lebe in Nepal. Der Himalaya ist mein zu Hause, der Mount Everest mein Ziel. Am 29. Mai 1953 erreichte ich das Dach der Welt. Zusammen mit Edmund Hillary. Nicht als erster, sondern gemeinsam mit ihm."
+  },
+  "15": {
+    "name": "Pankhurst",
+    "url": "/images/avatars/Pankhurst-Portrait.png",
+    "fullscreen-url": "/images/avatars/Pankhurst.png",
+    "url-bbb-server" : "/images/custom/avatars/Pankhurst-Portrait.png",
+    "alt": "Avatar Pankhurst",
+    "description": "Gleichberechtigung für alle. Das ist mein Ziel. Gebt uns Frauen endlich unsere uneingeschränkte Freiheit oder tötet uns. Für das Frauenwahlrecht trete ich ein mit all meiner Kraft. Zur Not auch mit Gewalt."
+  },
+  "16": {
+    "name": "SaintPhalle",
+    "url": "/images/avatars/SaintPhalle-Portrait.png",
+    "fullscreen-url": "/images/avatars/SaintPhalle.png",
+    "url-bbb-server" : "/images/custom/avatars/SaintPhalle-Portrait.png",
+    "alt": "Avatar Saint Phalle",
+    "description": "“Ich war eine zornige junge Frau, doch gibt es ja viele zornige junge Frauen, die trotzdem keine Künstlerinnen werden. Ich wurde Künstlerin, weil es für mich keine Alternative gab.” Eine der erfolgreichsten des 20. Jahrhunderts."
+  },
+  "17": {
+    "name": "Schiller",
+    "url": "/images/avatars/Schiller-Portrait.png",
+    "fullscreen-url": "/images/avatars/Schiller.png",
+    "url-bbb-server" : "/images/custom/avatars/Schiller-Portrait.png",
+    "alt": "Avatar Schiller",
+    "description": "Die Räuber, Don Carlos, – ihr kennt meine Werke vermutlich. Drama, Lyrik, Romantik ist mein Metier. Ich bin ein Kind stürmischer Zeiten und formte die Weimarer Klassik. Zusammen mit Goethe, meinem Freund."
+  },
+  "18": {
+    "name": "Scholl",
+    "url": "/images/avatars/Scholl-Portrait.png",
+    "fullscreen-url": "/images/avatars/Scholl.png",
+    "url-bbb-server" : "/images/custom/avatars/Scholl-Portrait.png",
+    "alt": "Avatar Scholl",
+    "description": "Geboren am 9. Mai 1921 in Forchtenberg. Ermordet am 22. Februar 1943 in München, als Widerstandskämpferin der weißen Rose gegen den Nationalsozialismus zusammen mit meinem Bruder Hans Scholl und meinem Freund Willi Graf."
+  },
+  "19": {
+    "name": "Tubman",
+    "url": "/images/avatars/Tubman-Portrait.png",
+    "fullscreen-url": "/images/avatars/Tubman.png",
+    "url-bbb-server" : "/images/custom/avatars/Tubman-Portrait.png",
+    "alt": "Avatar Tubman",
+    "description": "Ich verhalf vielen versklavten Menschen zur Flucht. “Ich war eine Fremde in einem fremden Land. Mein Vater, meine Mutter, meine Brüder und Schwester waren in Maryland. Aber ich war frei und sie sollten auch frei sein.”"
+  },
+  "20": {
+    "name": "Yotanka",
+    "url": "/images/avatars/Yotanka-Portrait.png",
+    "fullscreen-url": "/images/avatars/Yotanka.png",
+    "url-bbb-server" : "/images/custom/avatars/Yotanka-Portrait.png",
+    "alt": "Avatar Yotanka",
+    "description": "Ich bin Sitting Bull. Mit 10 erlegte ich den ersten Büffel. In der Schlacht am “Little Bighorn” errang ich den Sieg über die amerikanischen Truppen. Doch die Waffe legte ich beiseite und führte meinen Kampf fortan mit der Zunge."
+  },
+  "21": {
+    "name": "Laika",
+    "url": "/images/avatars/Laika-Portrait.png",
+    "fullscreen-url": "/images/avatars/Laika.png",
+    "url-bbb-server" : "/images/custom/avatars/Laika-Portrait.png",
+    "alt": "Avatar Laika",
+    "description": "Am 3. November 1957 reiste ich als erstes Tier ins Weltall. Meine Rakete: Mission Sputnik 2. Auf Briefmarken, aber auch Schokoladen findet ihr heute noch meinen Namen: Laika, die erste Hündin im All."
+  },
+  "22": {
+    "name": "Kngwarreye",
+    "url": "/images/avatars/Kngwarreye-Portrait.png",
+    "fullscreen-url": "/images/avatars/Kngwarreye.png",
+    "url-bbb-server" : "/images/custom/avatars/Kngwarreye-Portrait.png",
+    "alt": "Avatar Kngwarreye",
+    "description": "Ich male für die Gemeinschaft, für meine Leute im Busch. Alles was mir gehört, gehört auch meinen Leuten, den Ureinwohnern dieses Landes. Ich male Punkte und Striche. Ich male Yams. Das ist, was ich male: das Ganze."
+  },
+  "23": {
+    "name": "Kleopatra",
+    "url": "/images/avatars/Kleopatra-Portrait.png",
+    "fullscreen-url": "/images/avatars/Kleopatra.png",
+    "url-bbb-server" : "/images/custom/avatars/Kleopatra-Portrait.png",
+    "alt": "Avatar Kleopatra",
+    "description": "Ich gewann die beiden mächtigsten Herrscher des römischen Reichs. Marcus Antonius und Gaius Julius Cäsar. Sie verfielen meiner Schönheit und verhalfen mir zur Macht über Ägypten. Mir, dem letzten weiblichen Pharao."
+  },
+  "24": {
+    "name": "KarlDerGrosse",
+    "url": "/images/avatars/KarlDerGrosse-Portrait.png",
+    "fullscreen-url": "/images/avatars/KarlDerGrosse.png",
+    "url-bbb-server" : "/images/custom/avatars/KarlDerGrosse-Portrait.png",
+    "alt": "Avatar Karl der Grosse",
+    "description": "Unter mir gelang das Frankenreich zu neuer Blüte. Mein Reich reicht von der Nordsee nach Mittelitalien und von den Pyrenäen bis Ungarn. 800 n. Chr. erhielt ich die Kaiserkrönung in Aachen, mit der ich unsterblich wurde."
+  },
+  "25": {
+    "name": "Herodot",
+    "url": "/images/avatars/Herodot-Portrait.png",
+    "fullscreen-url": "/images/avatars/Herodot.png",
+    "url-bbb-server" : "/images/custom/avatars/Herodot-Portrait.png",
+    "alt": "Avatar Herodot",
+    "description": "Vieles von dem, was ihr wisst oder zu wissen glaubt, wisst ihr von mir. Über fremde Länder und deren Völker, Kulturen und Religionen. Auch den Greifen und die Hydra beschrieb ich. Was wahr davon ist, entscheidet ihr!"
+  },
+  "26": {
+    "name": "Hawkings",
+    "url": "/images/avatars/Hawkings-Portrait.png",
+    "fullscreen-url": "/images/avatars/Hawkings.png",
+    "url-bbb-server" : "/images/custom/avatars/Hawkings-Portrait.png",
+    "alt": "Avatar Hawkings",
+    "description": "Schwarze Löcher faszinierten mich seit jeher. Komplizierte Theorien, die wenige verstehen. Doch auch der Besiedlung weiterer Himmelskörper gilt mein Interesse. Weit weg von schwarzen Löchern versteht sich."
+  },
+  "27": {
+    "name": "Graf",
+    "url": "/images/avatars/Graf-Portrait.png",
+    "fullscreen-url": "/images/avatars/Graf.png",
+    "url-bbb-server" : "/images/custom/avatars/Graf-Portrait.png",
+    "alt": "Avatar Graf",
+    "description": "Ich muss etwas tun! Das war meine Erkenntnis, nachdem ich die Gräueltaten des Krieges gesehen habe. Und das tat ich. Mit Sophie und Hans Scholl und anderen Mitgliedern der weißen Rose. Nieder mit Hitler!"
+  },
+  "28": {
+    "name": "Earhart",
+    "url": "/images/avatars/Earhart-Portrait.png",
+    "fullscreen-url": "/images/avatars/Earhart.png",
+    "url-bbb-server" : "/images/custom/avatars/Earhart-Portrait.png",
+    "alt": "Avatar Earhart",
+    "description": "Höher und weiter flog zuvor keine Frau. Mit meiner Lockheed Vega 5b überquerte ich als erste Frau im Alleinflug den Atlantik. Ich bin die Pionierin der Lüfte und flog als erster Mensch über den Pazifik."
+  },
+  "29": {
+    "name": "Darwin",
+    "url": "/images/avatars/Darwin-Portrait.png",
+    "fullscreen-url": "/images/avatars/Darwin.png",
+    "url-bbb-server" : "/images/custom/avatars/Darwin-Portrait.png",
+    "alt": "Avatar Darwin",
+    "description": "Ich reiste mit meinem Schiff, der HMS Beagle auf Forschungsreise um die halbe Welt und begründete als Naturwissenschaftler meine Theorie über die Veränderlichkeit der Arten. Ich bin der Vater des Evolutionstheorie."
+  },
+  "30": {
+    "name": "Asmau",
+    "url": "/images/avatars/Asmau-Portrait.png",
+    "fullscreen-url": "/images/avatars/Asmau.png",
+    "url-bbb-server" : "/images/custom/avatars/Asmau-Portrait.png",
+    "alt": "Avatar Asmau",
+    "description": "Bildung ist das wichtigste Gut für ein selbstbestimmtes Leben. Das wünsche ich mir für alle Frauen. Als Muslima weiß ich, wovon ich in meinen Gedichten und Liedern schreibe. Lies sie und du wirst sie verstehen."
+  },
+  "31": {
+    "name": "Arendt",
+    "url": "/images/avatars/Arendt-Portrait.png",
+    "fullscreen-url": "/images/avatars/Arendt.png",
+    "url-bbb-server" : "/images/custom/avatars/Arendt-Portrait.png",
+    "alt": "Avatar Arendt",
+    "description": "Meine Publikationen machten mich zur wichtigsten politischen Theoretikerin meiner Zeit. Ich hoffe auf einen neuen europäischen Menschen ohne Nationalismus. Totalitarismus, Rassismus: das sind die wichtigsten Themen meiner Zeit."
+  },
+  "32": {
+    "name": "Ali",
+    "url": "/images/avatars/Ali-Portrait.png",
+    "fullscreen-url": "/images/avatars/Ali.png",
+    "url-bbb-server" : "/images/custom/avatars/Ali-Portrait.png",
+    "alt": "Avatar Ali",
+    "description": "“Sting like a bee, fly like a butterfly” ist mein Motto. Ich bin der unumstrittene Boxweltmeister. Ich errang Ruhm in zahlreichen Fights. Mein größter Kampf: Der Kampf gegen Rassismus in der Gesellschaft."
+  }
+}
