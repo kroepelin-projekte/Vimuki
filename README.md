@@ -6,7 +6,7 @@ Copy the content of this directory or clone this git repository into the followi
 <code><ILIAS_directory>/Customizing/global/skin</code>
 
 - <code>cd Customizing/global/skin</code>
-- <code>git clone https://github.com/kroepelin-projekte/Vimuki.git vimuki-skin</code>
+- <code>git clone <Repositoy_path> vimuki-skin</code>
 - <code>git checkout Vimui_Skin</code>
 
 
