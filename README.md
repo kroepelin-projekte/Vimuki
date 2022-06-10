@@ -37,7 +37,7 @@ Hinweise zur Installation von ILIAS finden Sie unter: https://docu.ilias.de/ilia
 #### Komponente 2: Skin für ILIAS ####
 Anpassung der Lernplattform im Stil von Vimuki.
 
-Eine detailierte Installationsanleitung findet sich im Branch Vimuki_Skin.
+Eine detailierte Installationsanleitung findet sich im Branch VimukiSkin.
 
 #### Komponente 3: PersDashboard Plugin für ILIAS ####
 Das PersDashboard Plugin in Version 1.0 muss in ILIAS installiert werden, um auf dem Dashboard in ILIAS zusätzliche Informationen für alle Nutzer zu platzieren.
@@ -177,9 +177,3 @@ Copyright © 2021, Historisches Museum Saar
 
 [LGPL](https://github.com/bigbluebutton/bigbluebutton/blob/develop/LICENSE)
 betrifft alle Programmierungen in BigBlueButton
-
-
-
-
-
-
