@@ -82,16 +82,14 @@ Das MultiVC Plugin muss in ILIAS installiert werden, um eine Integration von Big
 
 Hier finden Sie das Repository und Hinweise für die Installation: https://github.com/internetlehrer/MultiVc
 
-Die installierte Version vom MultiVC ist 5.2.
+Die installierte Version des  MultiVC Plugins ist 5.2.
 
-Customizing
+##### Customizing #####
 
 Es ist eine Anpassung des Logout Links im MultVC Plugin notwendig. Änderung in der Datei ./classes/class.ilApiBBB.php in der Methode setCreateMeetingParam():
 
 $joinBtnUrl= 'https://vimuki.org';
 Nach jedem Update im MultiVC Plugin muss die Variable $joinBtnUrl erneut festgelegt werden.
-
-Konfiguration
 
 Die Konfiguration des Plugins ist zu finden unter Administration  => ILIAS erweitern => Plugins. Neben dem Plugin Aktionen und Konfigurieren auswählen. Einen Screenshot der notwendigen Konfiguration finden Sie auf der nächsten Seite.
 
@@ -105,13 +103,8 @@ Eine detailierte Installationsanleitung findet sich im Branch VIMUKIWebService
 #### Komponente 7: Vimuki PHP Site ####
 Für das Vimuki Projekt wurde eine spezielle PHP-basierte Website (MVC System) entwickelt, um das Eingangsspiel einzubinden und Zugang zu den BBB Räumen über die BBB API zu regulieren. Die PHP-Site funktioniert nur in Kombination mit der BBB API und dem Vimuki WebService Plugin.
 
-Der Aufruf der Seite erfolgt über die folgende URL: domainname.de/room?meetingId=MEETINGID&eventId=EVENTID&page=PAGE
-
-MEETINGID: ist die ref_id des MultiVC Objekt in ILIAS
-EVENTID: ist die ref_id der Sitzung in ILIAS 
-Page: ist die Seitenzahl der PHP-Site, Standard ist 1 
-
 Eine detailierte Installationsanleitung findet sich im Branch PHPSite. 
+
 Link zum Repo des Packages bigbluebutton-api-php: https://github.com/bigbluebutton/bigbluebutton-api-php
 
 Anpassungen und Konfigurationen um die PHP-Site korrekt einzubinden: 
@@ -158,17 +151,35 @@ Damit das Custom CSS auch aktiv für Moderatoren ist, die durch ILIAS an BBB tei
 
 ### Benutzung ###
 
+#### Vimuki WebService ####
 
+Der Aufruf der Seite erfolgt über die folgende URL: domainname.de/room?meetingId=MEETINGID&eventId=EVENTID&page=PAGE
+
+MEETINGID: ist die ref_id des MultiVC Objekts in ILIAS
+EVENTID: ist die ref_id der Sitzung in ILIAS 
+Page: ist die Seitenzahl der PHP-Site, Standard ist 1 
 
 ### Credits ###
-Auftraggeber/Rechteinhaber: Historisches Museum Saar (https://www.historisches-museum.org)
+Auftraggeber/Rechteinhaber: Historisches Museum Saar https://www.historisches-museum.org
 
-Urheber: Kröpelin Projekt GmbH (www.kroepelin-projekte.de)
+Urheber: Kröpelin Projekt GmbH www.kroepelin-projekte.de
+
+Unterstützende Software: 
+[MultiVC Plugin der Internet Lehrer GmbH](https://github.com/internetlehrer/MultiVc), 
+[BigBlueButton](https://docs.bigbluebutton.org/)
 
 ### Lizenz ###
 Copyright © 2021, Historisches Museum Saar 
 
-[GPL](https://github.com/museum4punkt0/Vimuki/blob/main/LICENSE)
-betrifft alle Programmierungen in ILIAS
-[LGPL](https://github.com/museum4punkt0/Vimuki/blob/main/LICENSE)
+[GPL](https://github.com/museum4punkt0/VIMUKI_2.0/blob/main/LICENSE)
+- betrifft alle ILIAS und alle genutzten oder für dieses Projekt erstellten Erweiterungen
+- [MultiVC Plugin](https://github.com/internetlehrer/MultiVc/blob/master/LICENSE)
+
+[LGPL](https://github.com/bigbluebutton/bigbluebutton/blob/develop/LICENSE)
 betrifft alle Programmierungen in BigBlueButton
+
+
+
+
+
+
