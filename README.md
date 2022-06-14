@@ -1,16 +1,16 @@
-# Customizing BigBlueButton
+# Anpassungen von BigBlueButton
 
-## Activation BBB API
+## Aktivierung der BBB API
 
-In BBB Server:
+Auf dem BBB Server:
 
 <code>nano /usr/share/bbb-web/WEB-INF/classes/bigbluebutton.properties</code>
 
-serviceEnabled  = true
+=> <code>serviceEnabled  = true</code>
 
-## BBB Notes
+## Deaktivierung BBB Notizen
 
-In BBB Server:
+Auf dem BBB Server:
 
 <code>nano /usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml</code>
 
@@ -21,24 +21,18 @@ In BBB Server:
 
 ## BBB Logo
 
-We store the Logo under <code>/var/www/bigbluebutton-default/images/</code> in BBB Server and we define the Path of Logo in the configuration of MultiVC Plugins.
+Das Logo wird unter <code>/var/www/bigbluebutton-default/images/</code> gespeichert und der Pfad des Logo wird in der Konfiguration des MultiVC Plugins hinterlegt.
 
 
-## BBB Custom Startpresentation
+## BBB Custom Startpräsentation
 
-We store the file of the startpresentation under <code>/var/www/bigbluebutton-default/startpresentation</code> in BBB Server and define the path in the configuration of MultiVC Plugin.
+Wir speichern die Datei der Startpräsentation unter <code>/var/www/bigbluebutton-default/startpresentation</code> und hinterlegen den Pfad in der Konfiguration des MultiVC Plugins.
 
 
 ## BBB Custom CSS File
 
-In BBB Server:
+Auf dem BBB Server:
 
 <code>nano /var/www/bigbluebutton-default/css/custom.css</code>
 
 This file is connected in MultiVC Konfiguration Plugin in ILIAS.
-
-## Custom Logout URL in MultiVC Plugin
-
-We define the custom Logout Link in class file <code>./classes/class.ilApiBBB.php</code>. We change the variable $joinBtnUrl in method setCreateMeetingParam() to: 
-
-<code>$joinBtnUrl= 'https://vimuki.org';</code>
