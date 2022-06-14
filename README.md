@@ -84,9 +84,6 @@ Hier finden Sie das Repository und Hinweise für die Installation: https://githu
 
 Die installierte Version des  MultiVC Plugins ist 5.2.
 
- 
-![Bild der Konfiguration in ILIAS](https://github.com/museum4punkt0/VIMUKI_2.0/blob/main/MultiVC-Config.png)
-
 ##### Customizing #####
 
 Es ist eine Anpassung des Logout Links im MultVC Plugin notwendig. Änderung in der Datei ./classes/class.ilApiBBB.php in der Methode setCreateMeetingParam():
@@ -96,7 +93,7 @@ Nach jedem Update im MultiVC Plugin muss die Variable $joinBtnUrl erneut festgel
 
 Die Konfiguration des Plugins ist zu finden unter Administration  => ILIAS erweitern => Plugins. Neben dem Plugin Aktionen und Konfigurieren auswählen. Einen Screenshot der notwendigen Konfiguration finden Sie auf der nächsten Seite.
 
-TODO: BILD DER KONFIG
+![Bild der Konfiguration in ILIAS](https://github.com/museum4punkt0/VIMUKI_2.0/blob/main/MultiVC-Config.png)
 
 #### Komponente 6: VIMUKI WebService Plugin ####
 Bei dem Vimuki WebService Plugin handelt es sich um ein Soap Hook Plugin für ILIAS, dass die Standard Funktionen der ILIAS SOAP Schnittstelle um die Funktion eventVIMUKIObject erweitert. Bei Angabe der ref_id’s des MultiVC Objekts und der Sitzung wird die Startzeit der Sitzung zurückgegeben. Diese Startzeit wird in der PHP-Site benötigt, um zu bestimmen, ob noch genug Zeit für das Einstiegsspiel oder die Avatar-Auswahl ist.
@@ -168,7 +165,7 @@ Das zweite Spiel ist erreichbar über folgenden Link: domainname.com/game?id=2. 
 ### Credits ###
 Auftraggeber/Rechteinhaber: Historisches Museum Saar https://www.historisches-museum.org
 
-Urheber: Kröpelin Projekt GmbH www.kroepelin-projekte.de
+Urheber: Kröpelin Projekt GmbH https://www.kroepelin-projekte.de
 
 Unterstützende Software: 
 [MultiVC Plugin der Internet Lehrer GmbH](https://github.com/internetlehrer/MultiVc), 
