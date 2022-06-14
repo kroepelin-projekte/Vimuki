@@ -11,7 +11,7 @@
 
 ## Installation MVC System
 
-1. <code>git clone https://github.com/kroepelin-projekte/Vimuki_PHPSite.git phpsite</code>
+1. <code>git clone [https://github.com/kroepelin-projekte/Vimuki_PHPSite.git](https://github.com/museum4punkt0/VIMUKI_2.0.git) phpsite</code>
 2. <code>cd phpsite</code>
 3. <code>git checkout Vimuki_PHPSite</code>
 4. <code>composer install</code>
