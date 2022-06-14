@@ -84,6 +84,9 @@ Hier finden Sie das Repository und Hinweise für die Installation: https://githu
 
 Die installierte Version des  MultiVC Plugins ist 5.2.
 
+ 
+![Bild der Konfiguration in ILIAS](https://github.com/kroepelin-projekte/Vimuki/blob/main/MultiVC-Config.png)
+
 ##### Customizing #####
 
 Es ist eine Anpassung des Logout Links im MultVC Plugin notwendig. Änderung in der Datei ./classes/class.ilApiBBB.php in der Methode setCreateMeetingParam():
