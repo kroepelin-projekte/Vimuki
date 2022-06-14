@@ -12,7 +12,7 @@ serviceEnabled  = true
 
 In BBB Server:
 
-<code>nano /usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml<code>
+<code>nano /usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml</code>
 
 <code>note:
 
