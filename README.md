@@ -85,7 +85,7 @@ Hier finden Sie das Repository und Hinweise für die Installation: https://githu
 Die installierte Version des  MultiVC Plugins ist 5.2.
 
  
-![Bild der Konfiguration in ILIAS](https://github.com/kroepelin-projekte/Vimuki/blob/main/MultiVC-Config.png)
+![Bild der Konfiguration in ILIAS](https://github.com/museum4punkt0/VIMUKI_2.0/blob/main/MultiVC-Config.png)
 
 ##### Customizing #####
 
@@ -110,13 +110,60 @@ Eine detailierte Installationsanleitung findet sich im Branch Vimuki_PHPSite.
 
 ### Benutzung ###
 
-#### Vimuki WebService ####
+#### Verwendung der PHP-Site (MVC System) mit dem Vimuki WebService ####
 
-Der Aufruf der Seite erfolgt über die folgende URL: domainname.de/room?meetingId=MEETINGID&eventId=EVENTID&page=PAGE
+Der Aufruf der Seite erfolgt über die folgende URL: <code>domainname.de/room?meetingId=MEETINGID&eventId=EVENTID&page=PAGE</code)
 
 MEETINGID: ist die ref_id des MultiVC Objekts in ILIAS
 EVENTID: ist die ref_id der Sitzung in ILIAS 
 Page: ist die Seitenzahl der PHP-Site, Standard ist 1 
+
+Die PHP-Site übernimmt die Startzeit der Sitzung durch das Vimuki WebService Plugin. Dieses Plugin erhält durch einen SOAP-Aufruf die ref_id‘s des MultiVC Objekt und der Sitzung und gibt die Startzeit der Sitzung zurück. 
+
+Handelt es sich bei dem Objekt zur gegeben MEETINGID nicht um ein MultiVC Objekt oder handelt es bei dem Objekt der gegebene EVENTID nicht um eine Sitzung, so wird folgender Fehler angezeigt: „Zur Zeit gibt es keine Führung“. 
+
+Die PHP-Site prüft durch die BBB API, ob der BBB Raum läuft. Sollte der BBB Raum bisher nicht gestartet sein, wird folgender Fehler angezeigt: „Die Führung hat noch nicht begonnen“. 
+
+
+##### Seite 1: sichtbar für Benutzer #####
+Auf der ersten Seite kann der Start Button gedrückt werden.
+
+![Seite 1](https://github.com/museum4punkt0/VIMUKI_2.0/blob/main/webservice-seite-1.png)
+
+##### Seite 2: sichtbar für Benutzer #####
+Der gezeigte Inhalt von Seite 2 ist abhängig von der Zeit bis zur Durchführung der Führung (Startzeit):
+
+i)	Beträgt die Dauer bis zur Startzeit mehr als 6 Minuten 30 Sekunden, kann das Spiel* gestartet werden und man wählt einen Avatar aus.
+ii)	Liegt die Dauer bis zur Startzeit zwischen 1 Minuten 30 Sekunden und 6 Minuten 30 Sekunden und mehr als ist, dann kann man das Avatar auswählen, ohne das Spiel zu spielen.
+iii)	Beträgt die Dauer bis zur Startzeit weniger als 1 Minuten 30 Sekunden ist, gibt es eine Weiterleitung zu Seite 3 mit einem zufälligen Avatar Auswahl.
+
+Hier kann das Spiel gestartet werden. 
+
+![Seite 2a](https://github.com/museum4punkt0/VIMUKI_2.0/blob/main/webservice-seite-2a.png)
+
+Das Spiel wird in einer ModalBox auf der zweiten Seite gespielt. Diese ModalBox schließt durch JS, wenn das Spiel abgeschlossen wird. Im JS gibt es eine Methode game(), die den Countdown der übergegebenen Sekunden bis 0 runterzählt. Wenn diese Funktion aufgerufen wird, muss die Dauer des Spiels in Sekunden angegeben werden. 
+
+
+Danach kann ein Avatar ausgewählt werden. 
+
+![Seite 2b](https://github.com/museum4punkt0/VIMUKI_2.0/blob/main/webservice-seite-2b.png)
+
+![Seite 2c](https://github.com/museum4punkt0/VIMUKI_2.0/blob/main/webservice-seite-2c.png)
+
+##### Seite 3: sichtbar für Benutzer #####
+Auf der dritten Seite können Benutzer einen Namen eingeben und den Start Button drücken.
+
+![Seite 3](https://github.com/museum4punkt0/VIMUKI_2.0/blob/main/webservice-seite-3.png)
+
+##### Seite 4: nur im Hintergrund, nicht sichtbar für Benutzer #####
+Auf der vierten Seite findet eine Weiterleitung mit den entsprechenden Daten (Name, Avatar, Custom CSS) zum BBB Raum statt. Es gibt keine Benutzeroberfläche für diese Seite, sondern nur einen Backend Teil.
+
+##### Seite 5: #####
+Das erste Spiel ist erreichbar über folgenden Link: domainname.com/game?id=1. Diesen Link werden die Tutoren in der BigBlueButton Sitzung mitteilen
+
+##### Seite 6: #####
+Das zweite Spiel ist erreichbar über folgenden Link: domainname.com/game?id=2. Diesen Link werden die Tutoren in der BigBlueButton Sitzung mitteilen.
+
 
 ### Credits ###
 Auftraggeber/Rechteinhaber: Historisches Museum Saar https://www.historisches-museum.org
